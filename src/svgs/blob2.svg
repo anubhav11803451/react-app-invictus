@@ -1,0 +1,18 @@
+<!-- <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color: rgb(255, 95, 109);"></stop>
+      <stop offset="100%" style="stop-color: rgb(255, 195, 113);"></stop>
+    </linearGradient>
+  </defs>
+  <path id="blob" d="M414.5,323Q334,396,230.5,430Q127,464,110.5,357Q94,250,125,168Q156,86,252.5,82Q349,78,422,164Q495,250,414.5,323Z" fill="none" stroke-width="7px" stroke="url(#gradient)"></path>
+</svg> -->
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color: rgb(255, 95, 109);"></stop>
+      <stop offset="100%" style="stop-color: rgb(255, 195, 113);"></stop>
+    </linearGradient>
+  </defs>
+  <path id="blob" d="M449,279Q429,308,422,339Q415,370,361.5,350Q308,330,315,400.5Q322,471,286,427.5Q250,384,214,428Q178,472,173,417Q168,362,123,368.5Q78,375,45,351Q12,327,75.5,288.5Q139,250,149.5,235.5Q160,221,121.5,175Q83,129,123,129.5Q163,130,177,98.5Q191,67,220.5,110Q250,153,258,177Q266,201,306,159.5Q346,118,386,120Q426,122,444,151.5Q462,181,465.5,215.5Q469,250,449,279Z" fill="none" stroke-width="7px" stroke="url(#gradient)"></path>
+</svg>
