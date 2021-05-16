@@ -11,7 +11,7 @@ function Form() {
 
   return (
     <form class="form" onSubmit={submitForm}>
-      <input type="int" class="formfield" placeholder="Enter the Number" />
+      <input type="int" className="formfield" placeholder="Enter the Number" />
       <button type="submit" className="button" onSubmit={submitForm}>
         Submit
       </button>
