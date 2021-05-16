@@ -1,11 +1,17 @@
 .container-small {
-  min-height: 10vh;
-  min-width: 50vh;
+  min-height: 8vh;
+  min-width: 20vh;
   /* margin-top: 5rem; */
+  margin-left: 10rem;
+  margin-right: 10rem;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 3rem;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   box-shadow: 0px 8px 10px -7px #ffff;
 }

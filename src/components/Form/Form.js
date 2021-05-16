@@ -10,8 +10,14 @@ function Form() {
   };
 
   return (
-    <form class="form" onSubmit={submitForm}>
-      <input type="int" className="formfield" placeholder="Enter the Number" />
+    <form className="form" onSubmit={submitForm}>
+      <input
+        type="number"
+        className="formfield"
+        value={value}
+        placeholder="Enter the Number"
+        onChange={(e) => setValue(e.target.value)}
+      />
       <button type="submit" className="button" onSubmit={submitForm}>
         Submit
       </button>

@@ -3,8 +3,11 @@
 } */
 .App {
   min-height: 100vh;
-  text-align: center;
   background-color: #282a37;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
   /* background-color: #797676; */
 }
 
