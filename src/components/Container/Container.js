@@ -2,10 +2,10 @@ import React from "react";
 import "./Container.css";
 import Form from "../Form/Form";
 
-function Container() {
+function Container({ fetchData, sendValue }) {
   return (
     <div className="container-small">
-      <Form />
+      <Form fetchData={fetchData} sendValue={sendValue} />
     </div>
   );
 }

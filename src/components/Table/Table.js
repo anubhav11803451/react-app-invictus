@@ -1,29 +1,29 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Table.css";
 
-function Table() {
-  const [data, setData] = useState([]);
-
-  // useEffect(() => {
-  //   async function fetchData() {
-  //     const request = await getComputedStyle();
-  //   }
-  //   return request;
-  // }, [input]);
-
+function Table({ wordCount, value }) {
+  // wordCount.map((item, index) => console.table(item));
   return (
-    <div className="table">
-      <table>
-        <tr>
-          <th className="words">Word</th>
-          <th className="count">Count</th>
-        </tr>
-        {/* {this.state.data.slice(0, this.state.number).map((item, index) => (
+    <div className="table-container">
+      <table className="table">
+        <thead>
           <tr>
-            <td className="words">{item.word}</td>
-            <td className="count">{item.count}</td>
+            <th className="word">
+              <h2>Words</h2>
+            </th>
+            <th className="coun">
+              <h2>Count</h2>
+            </th>
           </tr>
-        ))} */}
+        </thead>
+        {wordCount.slice(0, value).map((item, index) => (
+          <tbody key={index}>
+            <tr>
+              <td className="words">{item.word}</td>
+              <td className="count">{item.count}</td>
+            </tr>
+          </tbody>
+        ))}
       </table>
     </div>
   );

@@ -1,9 +1,10 @@
 .container-small {
   min-height: 8vh;
-  min-width: 20vh;
+  min-width: 40vh;
   /* margin-top: 5rem; */
-  margin-left: 10rem;
-  margin-right: 10rem;
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  margin: auto;
   background-color: white;
   display: flex;
   align-items: center;

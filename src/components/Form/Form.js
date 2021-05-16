@@ -1,27 +1,32 @@
 import React, { useState } from "react";
 import "./Form.css";
 
-function Form() {
-  const [value, setValue] = useState("");
+function Form({ fetchData, sendValue }) {
+  const [value, setValue] = useState();
 
-  const submitForm = (event) => {
-    // event.preventDefault();
-    alert(`${value}`);
-  };
+  function submitForm() {
+    if (!value) return;
+    fetchData();
+    sendValue(value);
+    // setValue("");
+  }
 
   return (
-    <form className="form" onSubmit={submitForm}>
+    <div>
       <input
         type="number"
         className="formfield"
         value={value}
         placeholder="Enter the Number"
-        onChange={(e) => setValue(e.target.value)}
+        onChange={(e) => {
+          setValue(e.target.value);
+          // sendValue(e.target.value);
+        }}
       />
-      <button type="submit" className="button" onSubmit={submitForm}>
+      <button type="submit" className="button" onClick={submitForm}>
         Submit
       </button>
-    </form>
+    </div>
   );
 }
 
