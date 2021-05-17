@@ -80,7 +80,7 @@ I have `3` Components in my project library:
 - Form
 - Table
 
-### With help of props i have passed the function within component hierarchy.
+### With help of props I have passed the function and data within component hierarchy.
 
 ### Conatiner
 
